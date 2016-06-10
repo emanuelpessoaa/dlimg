@@ -1,6 +1,6 @@
 {
   "name": "dlimg",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "download all images from src attribute within img tag by type",
   "repository": {
     "url": "https://github.com/emanuelpessoaa/dlimg"
