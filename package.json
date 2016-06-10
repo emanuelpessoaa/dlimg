@@ -2,15 +2,24 @@
   "name": "dlimg",
   "version": "1.0.0",
   "description": "download all images from src attribute within img tag by type",
+  "repository": {
+    "url": "https://github.com/emanuelpessoaa/dlimg"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {
+    "blimg": "index.js"
+  },
+  "author": "Emanuel Pessoa",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.20.0",
     "request": "^2.72.0",
     "yargs": "^4.7.1"
+  },
+  "engines": {
+    "node": "*"
   }
 }
