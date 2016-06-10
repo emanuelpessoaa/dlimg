@@ -19,7 +19,7 @@ dlimg http://www.whatever.com
 ```bash
 dlimg http://www.whatever.com --type jpg
 ```
-
+> the files will be downloaded on the current directory
 
 
 ## TODO
