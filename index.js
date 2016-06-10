@@ -63,8 +63,7 @@ var request = require('request'),
         
             for (var i = 0; i < sources.length; i++) { 
                 var filename = sources[i].split('/').pop();
-                // download( sources[i], filename);
-                console.log(sources[i]);
+                download( sources[i], filename);
             };  
         
         };
